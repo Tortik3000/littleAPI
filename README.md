@@ -1,4 +1,32 @@
 
+## Running the application
+
+### Running locally
+
+Run the application using the built-in Flask server:
+
+```sh
+$ python run.py
+```
+
+## Installation
+
+With `virtualenv`:
+
+```sh
+$ python -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+```
+
+## Running tests
+
+Run:
+
+```sh
+$ pytest
+```
+
 # Запросы и ответы
 
 - Создание пользователя `POST /users/create`

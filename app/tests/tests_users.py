@@ -92,7 +92,7 @@ def test_user_contests():
 
 def test_get_users_leaderboard(create_user_payload):
     global count_users
-    n = 3
+    n = 5
     for _ in range(n):
         payload = create_user_payload
         create_response = requests.post(f"{ENDPOINT}/user/create", json=payload)
